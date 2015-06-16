@@ -1,0 +1,29 @@
+
+
+.na, h5:hover {
+	color: orange;
+}
+
+.nav, h5:visited{
+	color:gray;
+}
+
+.container {
+	background-color: white;
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
