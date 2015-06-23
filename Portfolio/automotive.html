@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dave's Project Page</title>
-    <link rel="stylesheet" href="css/boostrap.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+<!    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
   <div class="container">
-    <div class="row">
+    <header class="row">
       <div class="col-2">
-        <div class="img"> <img src="img/logo.png" alt="I need a haircut.."></div>
+        <div class="img"><img src="img/logo.png" alt="I need a haircut.."></div>
       </div>
-      <div class="col-10">
+      <div class="col-md-10">
         <img src="img/bannerflip.png" alt"a picture of me paragliding in Dunlap, CA">
       </div>
-      <div class="header" text-right text-uppercase>
+      <nav class="navbar" text-right text-uppercase>
         <h1 class="text-thin"> DAVID TANG</h1>
-        <h5 class="nav"><a href="ux.html">UX</a><a href="id.html">/ID</a><a href="hfe.html">/HFE</a><a href="research.html">/RESEARCH</a><a href="   contact.html">/CONTACT</a></h5>
+        <h5 class="links"><a href="ux.html">UX</a><a href="id.html">/ID</a><a href="hfe.html">/HFE</a><a href="research.html">/RESEARCH</a><a href="   contact.html">/CONTACT</a></h5>
       </div>
-    </div>
-      <div class="row">
-        <div class="col-12" >
-          <h3 class= "text-muted">Automotive </h3>
+      </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class= "text-muted">Automotive</h3>
+          </div>
         </div>
       </div>
 
-        <div class="gallery">
+        <section class="gallery">
           <div class="project">
             <a href=automotive.html>
             <img src=img/auto1.jpg alt="older interior automotive work" class="img-responsive">
@@ -75,13 +77,16 @@
               </div>
             </div>
           </div>
-
-
       </div>
     </div>
-
     </div>
-
   </div>
 </body>
+<footer class="footer">
+  <div class="row">
+    <div class="col-md-12">&copy; david tang 2015 &middot; All Rights Reserved &middot; <a href="http://davtan/" >davesprojectpage</a></p>
+    </div>
+  </div>
+</div>
+
 </html>
