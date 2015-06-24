@@ -9,14 +9,11 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-
 @media screen and (max-width: 650px) {
     .container {
     margin-left: auto;
-
     }
-    .col-md-10 {
+    .col-10 {
         display: none;
         overflow: hidden;
     }
@@ -24,11 +21,11 @@
         text-align: right;
         margin-left: auto;
     }
-    .project {
+    .col-4 {
         min-width: 260px;
         width: 50%;
     }
-    .col-md-12 {
+    .col-12 {
         margin-left: auto 0;
         padding-left: 30px;
         max-width: 840px;
@@ -43,39 +40,31 @@
 
     .row {
         margin-bottom: 0px;
+    }
 }
-
-}
-
 @media screen and (max-width: 350px) {
     .col-2 {
     display: none;
     overflow: hidden;
-}
-
-    .col-md-10 {
+    }
+    .col-10 {
     display: none;
     overflow: hidden;
-}
-
+    }
     .navbar {
         width: 100%;
         padding-left: 20px
         padding-right: 10px;
         text-align: center;
     }
-
-    .project {
+    .col-4 {
         min-width: 280px;
         width: 100%;
-
     }
-
     .container {
         max-width: 350px;
     }
-
-    .col-md-12 {
+    .col-12 {
         font-size: 10px;
         padding-left: 15px;
         justify-content: center;
@@ -83,15 +72,13 @@
     .row {
         margin-bottom: 0px;
     }
-
 }
-
 .container {
     margin: 0 auto;
     max-width: 840px;
     width: 100%;
 }
-.col-md-10 {
+.col-10 {
     height: 110px;
     overflow: hidden;
 }
@@ -108,18 +95,19 @@
     margin-left: auto;
     margin-right: auto;
 }
-.img {margin:0 auto;
+.img {
+    margin:0 auto;
 }
-
 .row {
     width: 100%;
     margin-bottom: 10px;
     display: flex;
 }
-.project {
+.col-4 {
     width: 33.33%;
     padding: 0;
     margin: 0;
+
 }
 .navback {
     text-align: center;
@@ -131,7 +119,7 @@
     min-width: 110px;
     overflow: hidden;
 }
-.col-md-12 {
+.col-12 {
     width: 100%;
     max-width: 840px;
     padding-left: 15px;
@@ -141,10 +129,7 @@
     max-width: 100%;
     max-width: 840px;
     margin: 0 auto;
-
     width: 100%;
     margin-top:200px;
     text-align: center
-
-
 }
