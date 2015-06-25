@@ -3,7 +3,6 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-
 }
 
 @media screen and (max-width: 650px) {
@@ -41,7 +40,6 @@
     .col-2 {
         margin-left: 10%;
     }
-
 
     .row {
         margin-bottom: 0px;
